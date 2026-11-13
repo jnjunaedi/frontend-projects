@@ -12,13 +12,37 @@
 
 @media screen and (min-width: 992px) {
   .mb-images {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .mb-images > * {
     width: 300px;
   }
     .dk-images > * {
     width: 900px;
+  }
+}
+
+@media screen and (min-width: 1200px ) {
+  .mb-images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mb-images > * {
+    width: 300px;
+  }
+    .dk-images > * {
+    width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1500px ) {
+  .mb-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mb-images > * {
+    width: 300px;
+  }
+    .dk-images > * {
+    width: 1000px;
   }
 }
 

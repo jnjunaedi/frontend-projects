@@ -1,7 +1,8 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: 0;
     color: white;
+    text-align: center;
 }
 
 html,
@@ -14,6 +15,7 @@ body {
 .title {
   padding: 20px;
   font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .jnshop-section {
@@ -23,7 +25,17 @@ body {
   font-size: 20px;
 }
 .box-mb {
-    margin-top: 30px;
+    margin-top: 50px;
+}
+.link-app-shop {
+    font-weight: bold;
+}
+
+.link-app-shop > * {
+    color: rgb(0, 76, 255);
+}
+.title-mb-size {
+    text-align: center;
 }
 .mb-images {
     display: grid;
@@ -31,6 +43,7 @@ body {
     justify-self: center;
     grid-template-rows: auto;
     gap: 5rem;
+    margin-top: 50px;
 }
 
 .mb-images > * {
@@ -40,11 +53,15 @@ body {
 .box-dk {
     margin-top: 100px;
 }
+.title-dk-size {
+    text-align: center;
+}
 .dk-images {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-self: center;
     grid-template-rows: auto;
+    margin-top: 50px;
 }
 
 .dk-images > * {
