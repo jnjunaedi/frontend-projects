@@ -1,12 +1,14 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     box-sizing: 0;
+    color: white;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
+  background-color: rgb(30, 24, 18);
 }
 
 .title {
@@ -25,13 +27,14 @@ body {
 }
 .mb-images {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
     grid-template-rows: auto;
     gap: 5rem;
 }
 
 .mb-images > * {
-    width: 150px;
+    width: 15rem;
 }
 
 .box-dk {
@@ -40,10 +43,10 @@ body {
 .dk-images {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
     grid-template-rows: auto;
-    gap: 5rem;
 }
 
 .dk-images > * {
-    width: 350px;
+    width: 20rem;
 }
