@@ -1,69 +1,30 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: 0;
-    color: white;
-    text-align: center;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(30, 24, 18);
+  background-color: rgb(15, 17, 19);
 }
-
-.title {
+section {
   padding: 20px;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.jnshop-section {
-  padding: 20px;
+section div h1 {
+    font-size: 25px;
+    color: wheat;
 }
-.jnshop-section h1 {
-  font-size: 20px;
-}
-.box-mb {
-    margin-top: 50px;
-}
-.link-app-shop {
-    font-weight: bold;
+section p {
+    font-size: 14px;
+    color: wheat;
 }
 
-.link-app-shop > * {
-    color: rgb(0, 76, 255);
-}
-.title-mb-size {
-    text-align: center;
-}
-.mb-images {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-self: center;
-    grid-template-rows: auto;
-    gap: 5rem;
-    margin-top: 50px;
-}
-
-.mb-images > * {
-    width: 15rem;
-}
-
-.box-dk {
-    margin-top: 100px;
-}
-.title-dk-size {
-    text-align: center;
-}
-.dk-images {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-self: center;
-    grid-template-rows: auto;
-    margin-top: 50px;
-}
-
-.dk-images > * {
-    width: 20rem;
+section a {
+    color: white;
 }
